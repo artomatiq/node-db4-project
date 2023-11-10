@@ -1,9 +1,15 @@
 const express = require('express')
+const Recipe = require('./recipes-model')
 
 const router = express.Router()
 
-router.get('/', (req, res, next) => {
-    res.status(900).json('hello')
+router.get('/:recipe_id', (req, res, next) => {
+    Recipe.getById(req.params.id)
+        .then (recipe => {
+            res.status(200).json(recipe)
+        })
+        .catch(next)
+
 })
 
 module.exports = router
