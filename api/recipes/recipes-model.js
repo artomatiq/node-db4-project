@@ -1,7 +1,6 @@
-const db
+const db = require('../../data/db-config')
 
 async function getById (id) {
-    await db('recipes')
 
 }
 
