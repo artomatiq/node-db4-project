@@ -12,7 +12,7 @@ exports.up = async function(knex) {
         })
         .createTable('steps',  table => {
             table.increments('step_id')
-            table.string('step_text', 200).notNullable()
+            table.string('step_instructions', 200).notNullable()
             table.integer('step_number').notNullable().unsigned()
             table.integer('recipe_id')
                 .unsigned()

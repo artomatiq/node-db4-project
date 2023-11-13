@@ -15,16 +15,16 @@ const ingredients = [
 
 const steps = [
     //broccoli pesto pasta
-    {step_text: 'Heat pan.', step_number: 1, recipe_id: 1},
-    {step_text: 'Add broccoli', step_number: 2, recipe_id: 1},
-    {step_text: 'Add pesto mixed with pasta', step_number: 3, recipe_id: 1},
+    {step_instructions: 'Heat pan.', step_number: 1, recipe_id: 1},
+    {step_instructions: 'Add broccoli', step_number: 2, recipe_id: 1},
+    {step_instructions: 'Add pesto mixed with pasta', step_number: 3, recipe_id: 1},
     //lemon chicken
-    {step_text: 'Heat Oven', step_number: 1, recipe_id: 2},
-    {step_text: 'Put chicken and lemon in oven', step_number: 2, recipe_id: 2},
-    {step_text: 'Pin in oven at 500 degrees', step_number: 3, recipe_id: 2},
+    {step_instructions: 'Heat Oven', step_number: 1, recipe_id: 2},
+    {step_instructions: 'Put chicken and lemon in oven', step_number: 2, recipe_id: 2},
+    {step_instructions: 'Pin in oven at 500 degrees', step_number: 3, recipe_id: 2},
     //salmon en papillote
-    {step_text: 'Fish a salmon in the Bidasa river', step_number: 1, recipe_id: 3},
-    {step_text: 'Cook salmon', step_number: 2, recipe_id: 3},
+    {step_instructions: 'Fish a salmon in the Bidasa river', step_number: 1, recipe_id: 3},
+    {step_instructions: 'Cook salmon', step_number: 2, recipe_id: 3},
 ]
 
 const step_ingredients = [
