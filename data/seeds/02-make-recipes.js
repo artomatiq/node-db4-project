@@ -13,16 +13,6 @@ const ingredients = [
     { ingredient_name: 'Salmon' , ingredient_unit: 'grams'},
 ]
 
-const step_ingredients = [
-    //Broccoli pesto pasta
-    {step_id: 2, ingredient_id: 1, quantity: 1},
-    {step_id: 3, ingredient_id: 2, quantity: 1},
-    {step_id: 3, ingredient_id: 3, quantity: 1},
-    {step_id: 5, ingredient_id: 4, quantity: 1},
-    {step_id: 5, ingredient_id: 5, quantity: 1},
-    {step_id: 7, ingredient_id: 6, quantity: 1},
-]
-
 const steps = [
     //broccoli pesto pasta
     {step_text: 'Heat pan.', step_number: 1, recipe_id: 1},
@@ -35,6 +25,16 @@ const steps = [
     //salmon en papillote
     {step_text: 'Fish a salmon in the Bidasa river', step_number: 1, recipe_id: 3},
     {step_text: 'Cook salmon', step_number: 2, recipe_id: 3},
+]
+
+const step_ingredients = [
+    //Broccoli pesto pasta
+    {step_id: 2, ingredient_id: 1, quantity: 1},
+    {step_id: 3, ingredient_id: 2, quantity: 1},
+    {step_id: 3, ingredient_id: 3, quantity: 1},
+    {step_id: 5, ingredient_id: 4, quantity: 1},
+    {step_id: 5, ingredient_id: 5, quantity: 1},
+    {step_id: 7, ingredient_id: 6, quantity: 1},
 ]
 
 exports.seed = async function (knex) {
